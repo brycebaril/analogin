@@ -1,0 +1,35 @@
+{
+  "name": "analogin",
+  "version": "0.0.0",
+  "description": "Read from the analog inputs on (currently) a BeagleBone Black",
+  "main": "analogin.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "beaglebone",
+    "analogread",
+    "input",
+    "analog",
+    "nodebots"
+  ],
+  "jshintConfig": {
+    "asi": true,
+    "globalstrict": true,
+    "validthis": true,
+    "eqnull": true,
+    "node": true,
+    "loopfunc": true,
+    "newcap": false,
+    "eqeqeq": false
+  },
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "dependencies": {
+    "isnumber": "^1.0.0",
+    "xtend": "^3.0.0"
+  }
+}
