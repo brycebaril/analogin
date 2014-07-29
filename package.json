@@ -1,6 +1,6 @@
 {
   "name": "analogin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Read from the analog inputs on (currently) a BeagleBone Black",
   "main": "analogin.js",
   "directories": {
